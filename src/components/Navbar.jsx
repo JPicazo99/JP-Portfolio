@@ -8,7 +8,6 @@ function Navbar({ onNavigate }) {
           <li><button onClick={() => onNavigate('inicio')} className="hover:text-indigo-400">Inicio</button></li>
           <li><button onClick={() => onNavigate('proyectos')} className="hover:text-indigo-400">Proyectos</button></li>
           <li><button onClick={() => onNavigate('educacion')} className="hover:text-indigo-400">Educación</button></li>
-          <li><button onClick={() => onNavigate('cv')} className="hover:text-indigo-400">CV</button></li>
         </ul>
       </div>
     </nav>
