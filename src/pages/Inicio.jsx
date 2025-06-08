@@ -58,9 +58,7 @@ function Inicio() {
         {texto}<span className="animate-pulse">|</span>
       </h1>
       <p className="text-xl text-gray-300 mb-4">
-        Software Developer with a solid foundation in Python and C/C++, complemented by fundamental knowledge of JavaScript. Currently gaining hands-on experience while deepening understanding of core software development principles and industry best practices.
-
-Highly motivated to contribute to impactful projects through strong analytical thinking and a proactive mindset. Pursuing a Master’s degree in Computer Science with a specialization in Optimization, Data Science, and Heuristic Algorithms. Eager to grow in a collaborative and challenging environment while developing expertise in programming and software engineering.
+        Software Developer skilled in Python and C/C++, with foundational knowledge of JavaScript and strong problem-solving abilities. Currently pursuing a Master’s degree in Computer Science with a focus on Optimization and Heuristic Algorithms. Passionate about building efficient software and contributing to real-world solutions in collaborative environments.
       </p>
       <p className="text-indigo-400 font-medium text-lg">joel.picazo@cinvestav.mx</p>
       <p className="text-gray-400 text-base">Monterrey, Nuevo Leon, Mexico</p>

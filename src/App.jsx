@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar';
 import Projects from './pages/Projects';
 import Educacion from './pages/Educacion';
+import Certificaciones from './pages/Certificaciones';
 import Inicio from './pages/Inicio';
 import { useEffect, useState } from 'react';
 
@@ -20,6 +21,8 @@ function App() {
         return <Projects />;
       case 'educacion':
         return <Educacion />;
+      case 'certificaciones':
+        return <Certificaciones />;
       case 'inicio':
       default:
         return <Inicio />;
