@@ -5,9 +5,9 @@ function Navbar({ onNavigate }) {
       <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
         <h1 className="text-xl font-bold text-indigo-400 cursor-pointer" onClick={() => onNavigate('inicio')}>JP Portfolio</h1>
         <ul className="flex gap-6 text-gray-300 font-medium">
-          <li><button onClick={() => onNavigate('inicio')} className="hover:text-indigo-400">Inicio</button></li>
-          <li><button onClick={() => onNavigate('proyectos')} className="hover:text-indigo-400">Proyectos</button></li>
-          <li><button onClick={() => onNavigate('educacion')} className="hover:text-indigo-400">Educación</button></li>
+          <li><button onClick={() => onNavigate('inicio')} className="hover:text-indigo-400">Home</button></li>
+          <li><button onClick={() => onNavigate('proyectos')} className="hover:text-indigo-400">Projects</button></li>
+          <li><button onClick={() => onNavigate('educacion')} className="hover:text-indigo-400">Education</button></li>
         </ul>
       </div>
     </nav>

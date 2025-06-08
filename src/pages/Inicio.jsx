@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 
 function Inicio() {
   const [texto, setTexto] = useState('');
-  const frase = 'Hola, soy Joel';
+  const frase = 'Hello, I am Joel Picazo — Web Developer & Engineer';
 
   useEffect(() => {
     let i = 0;
@@ -14,9 +14,21 @@ function Inicio() {
     return () => clearInterval(intervalo);
   }, []);
 
-  const lenguajes = [
-    'Python', 'C/C++', 'Matlab', 'Java', 'JavaScript', 'Arduino', 'Ladder (Siemens)'
-  ];
+  const tecnologias = [
+  { nombre: "Arduino", icono: "/icons/arduino.svg", color: "text-teal-400", border: "border-teal-400" },
+  { nombre: "C/C++", icono: "/icons/cpp.svg", color: "text-blue-300", border: "border-blue-300" },
+  { nombre: "Docker", icono: "/icons/docker.svg", color: "text-sky-400", border: "border-sky-400" },
+  { nombre: "Git", icono: "/icons/git.svg", color: "text-orange-500", border: "border-orange-500" },
+  // { nombre: "GitHub", icono: "/icons/github.svg", color: "text-gray-300", border: "border-gray-300" },
+  { nombre: "Java", icono: "/icons/java.svg", color: "text-red-500", border: "border-red-500" },
+  { nombre: "JavaScript", icono: "/icons/javascript.svg", color: "text-yellow-400", border: "border-yellow-400" },
+  { nombre: "Matlab", icono: "/icons/matlab.svg", color: "text-orange-400", border: "border-orange-400" },
+  { nombre: "Python", icono: "/icons/python.svg", color: "text-green-400", border: "border-green-400" },
+  { nombre: "React", icono: "/icons/react.svg", color: "text-cyan-400", border: "border-cyan-400" },
+  { nombre: "Tailwind", icono: "/icons/tailwind.svg", color: "text-sky-300", border: "border-sky-300" },
+];
+
+
 
   const skills = [
     'Git & GitHub (version control)',
@@ -46,10 +58,12 @@ function Inicio() {
         {texto}<span className="animate-pulse">|</span>
       </h1>
       <p className="text-xl text-gray-300 mb-4">
-        Desarrollador web enfocado en crear soluciones modernas y funcionales.
+        Software Developer with a solid foundation in Python and C/C++, complemented by fundamental knowledge of JavaScript. Currently gaining hands-on experience while deepening understanding of core software development principles and industry best practices.
+
+Highly motivated to contribute to impactful projects through strong analytical thinking and a proactive mindset. Pursuing a Master’s degree in Computer Science with a specialization in Optimization, Data Science, and Heuristic Algorithms. Eager to grow in a collaborative and challenging environment while developing expertise in programming and software engineering.
       </p>
-      <p className="text-indigo-400 font-medium text-lg">joelpicazo@ejemplo.com</p>
-      <p className="text-gray-400 text-base">Cd. Victoria, Tamaulipas, México</p>
+      <p className="text-indigo-400 font-medium text-lg">joel.picazo@cinvestav.mx</p>
+      <p className="text-gray-400 text-base">Monterrey, Nuevo Leon, Mexico</p>
       <div className="mt-4 flex justify-center md:justify-start gap-4">
         <a href="https://www.linkedin.com/in/joel-picazo-60748a242/" className="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-2 rounded-md text-sm">LinkedIn</a>
         <a href="https://github.com/JPicazo99" className="bg-white text-indigo-600 hover:bg-gray-100 px-6 py-2 rounded-md text-sm">GitHub</a>
@@ -78,64 +92,69 @@ function Inicio() {
   </div>
 </div>
 
-<div className="mt-20 w-full max-w-4xl mx-auto">
-        <h2 className="text-3xl font-bold text-white mb-6 text-center">Lenguajes de Programación</h2>
-        <div className="flex flex-wrap justify-center gap-4">
-          {lenguajes.map((lang, idx) => (
-            <div
-              key={idx}
-              className="px-5 py-3 rounded-lg border border-indigo-400 text-indigo-300 font-semibold text-sm transition transform hover:scale-105 shadow-md bg-gray-800 min-w-[120px] text-center"
-            >
-              {lang}
-            </div>
-          ))}
-        </div>
+<div className="mt-20">
+  <h2 className="text-3xl font-bold text-white mb-8 text-center">Languages & Tools</h2>
+  <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2 justify-items-center">
+    {tecnologias.map((tech, idx) => (
+      <div
+        key={idx}
+        className={`flex flex-col items-center justify-center w-32 h-32 border rounded-xl p-4 shadow-md hover:scale-105 transition ${tech.border}`}
+      >
+        <img src={tech.icono} alt={tech.nombre} className="w-10 h-10 mb-2" />
+        <span className={`text-sm font-semibold ${tech.color}`}>{tech.nombre}</span>
       </div>
-
-
-
-      {/* Sección About My Resume */}
-<div className="bg-[#0f172a] text-white rounded-xl shadow-lg px-8 py-12 mt-12">
-  <h2 className="text-3xl font-bold text-center mb-6">Sobre Mi Resumen</h2>
-  <div className="grid md:grid-cols-2 gap-12">
-  {/* Columna izquierda: Datos personales */}
-  <div className="space-y-4">
-    <div className="flex justify-between border-b border-gray-600 pb-2">
-      <span className="text-gray-400">Edad:</span>
-      <span className="font-semibold">26</span>
-    </div>
-    <div className="flex justify-between border-b border-gray-600 pb-2">
-      <span className="text-gray-400">Residencia:</span>
-      <span className="font-semibold">México</span>
-    </div>
-    <div className="flex justify-between border-b border-gray-600 pb-2">
-      <span className="text-gray-400">Dirección:</span>
-      <span className="font-semibold">Nuevo León, Monterrey</span>
-    </div>
-    <div className="flex justify-between border-b border-gray-600 pb-2">
-      <span className="text-gray-400">Correo:</span>
-      <span className="font-semibold">joel.picazo@cinvestav.mx</span>
-    </div>
-    <div className="flex justify-between border-b border-gray-600 pb-2">
-      <span className="text-gray-400">Teléfono:</span>
-      <span className="font-semibold">+52 834 154 9400</span>
-    </div>
-    <div className="flex justify-between">
-      <span className="text-gray-400">Freelance:</span>
-      <span className="font-semibold">Disponible</span>
-    </div>
-  </div>
-
-  {/* Columna derecha: Habilidades técnicas */}
-  <div className="space-y-2">
-    <h3 className="text-xl font-semibold text-indigo-400 mb-4">Habilidades Técnicas</h3>
-    <ul className="list-disc list-inside text-gray-300 space-y-2">
-      {skills.map((skill, idx) => (
-        <li key={idx}>{skill}</li>
-      ))}
-    </ul>
+    ))}
   </div>
 </div>
+
+
+
+
+  {/* About My Resume Section */}
+<div className="bg-[#0f172a] text-white rounded-xl shadow-lg px-8 py-12 mt-12">
+  <h2 className="text-3xl font-bold text-center mb-6">Professional Summary</h2>
+  <div className="grid md:grid-cols-2 gap-12">
+
+    {/* Left Column: Personal Info */}
+    <div className="space-y-4">
+      <div className="flex justify-between border-b border-gray-600 pb-2">
+        <span className="text-gray-400">Age:</span>
+        <span className="font-semibold">26</span>
+      </div>
+      <div className="flex justify-between border-b border-gray-600 pb-2">
+        <span className="text-gray-400">Country:</span>
+        <span className="font-semibold">Mexico</span>
+      </div>
+      <div className="flex justify-between border-b border-gray-600 pb-2">
+        <span className="text-gray-400">Address:</span>
+        <span className="font-semibold">Monterrey, Nuevo León</span>
+      </div>
+      <div className="flex justify-between border-b border-gray-600 pb-2">
+        <span className="text-gray-400">Email:</span>
+        <span className="font-semibold">joel.picazo@cinvestav.mx</span>
+      </div>
+      <div className="flex justify-between border-b border-gray-600 pb-2">
+        <span className="text-gray-400">Phone:</span>
+        <span className="font-semibold">+52 834 154 9400</span>
+      </div>
+      <div className="flex justify-between">
+        <span className="text-gray-400">Freelance:</span>
+        <span className="font-semibold">Available</span>
+      </div>
+    </div>
+
+    {/* Right Column: Technical Skills */}
+    <div className="space-y-2">
+      <h3 className="text-xl font-semibold text-indigo-400 mb-4">Technical Skills</h3>
+      <ul className="list-disc list-inside text-gray-300 space-y-2">
+        {skills.map((skill, idx) => (
+          <li key={idx}>{skill}</li>
+        ))}
+      </ul>
+    </div>
+
+  </div>
+
 
 </div>
 
