@@ -17,7 +17,6 @@ function Inicio() {
   const tecnologias = [
   { nombre: "Python", icono: "/icons/python.svg", color: "text-green-400", border: "border-green-400" },
   { nombre: "C/C++", icono: "/icons/cpp.svg", color: "text-blue-300", border: "border-blue-300" },
-  { nombre: "JavaScript", icono: "/icons/javascript.svg", color: "text-yellow-400", border: "border-yellow-400" },
   { nombre: "Java", icono: "/icons/java.svg", color: "text-red-500", border: "border-red-500" },
   { nombre: "JavaScript", icono: "/icons/javascript.svg", color: "text-yellow-400", border: "border-yellow-400" },
   { nombre: "Matlab", icono: "/icons/matlab.svg", color: "text-orange-400", border: "border-orange-400" },
