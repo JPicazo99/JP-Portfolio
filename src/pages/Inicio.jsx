@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 
 function Inicio() {
   const [texto, setTexto] = useState('');
-  const frase = 'Hello, I am Joel Picazo — Web Developer & Engineer';
+  const frase = 'Hello, I am Joel Picazo — Data Analyst & Web Developer';
 
   useEffect(() => {
     let i = 0;
@@ -15,15 +15,16 @@ function Inicio() {
   }, []);
 
   const tecnologias = [
-  { nombre: "Arduino", icono: "/icons/arduino.svg", color: "text-teal-400", border: "border-teal-400" },
+  { nombre: "Python", icono: "/icons/python.svg", color: "text-green-400", border: "border-green-400" },
   { nombre: "C/C++", icono: "/icons/cpp.svg", color: "text-blue-300", border: "border-blue-300" },
-  { nombre: "Docker", icono: "/icons/docker.svg", color: "text-sky-400", border: "border-sky-400" },
-  { nombre: "Git", icono: "/icons/git.svg", color: "text-orange-500", border: "border-orange-500" },
-  // { nombre: "GitHub", icono: "/icons/github.svg", color: "text-gray-300", border: "border-gray-300" },
+  { nombre: "JavaScript", icono: "/icons/javascript.svg", color: "text-yellow-400", border: "border-yellow-400" },
   { nombre: "Java", icono: "/icons/java.svg", color: "text-red-500", border: "border-red-500" },
   { nombre: "JavaScript", icono: "/icons/javascript.svg", color: "text-yellow-400", border: "border-yellow-400" },
   { nombre: "Matlab", icono: "/icons/matlab.svg", color: "text-orange-400", border: "border-orange-400" },
-  { nombre: "Python", icono: "/icons/python.svg", color: "text-green-400", border: "border-green-400" },
+  { nombre: "Arduino", icono: "/icons/arduino.svg", color: "text-teal-400", border: "border-teal-400" },
+  { nombre: "Docker", icono: "/icons/docker.svg", color: "text-sky-400", border: "border-sky-400" },
+  { nombre: "Git", icono: "/icons/git.svg", color: "text-orange-500", border: "border-orange-500" },
+  // { nombre: "GitHub", icono: "/icons/github.svg", color: "text-gray-300", border: "border-gray-300" },
   { nombre: "React", icono: "/icons/react.svg", color: "text-cyan-400", border: "border-cyan-400" },
   { nombre: "Tailwind", icono: "/icons/tailwind.svg", color: "text-sky-300", border: "border-sky-300" },
 ];
@@ -58,7 +59,7 @@ function Inicio() {
         {texto}<span className="animate-pulse">|</span>
       </h1>
       <p className="text-xl text-gray-300 mb-4">
-        Software Developer skilled in Python and C/C++, with foundational knowledge of JavaScript and strong problem-solving abilities. Currently pursuing a Master’s degree in Computer Science with a focus on Optimization and Heuristic Algorithms. Passionate about building efficient software and contributing to real-world solutions in collaborative environments.
+        Data Analyst and Software Developer with expertise in Python and C/C++, and a foundational knowledge of JavaScript. Currently pursuing a Master's degree in Computer Science, specializing in Optimization and Heuristic Algorithms. Adept at solving complex problems and building efficient software solutions. Passionate about leveraging data-driven insights and optimization techniques to develop innovative solutions in collaborative environments.
       </p>
       <p className="text-indigo-400 font-medium text-lg">joel.picazo@cinvestav.mx</p>
       <p className="text-gray-400 text-base">Monterrey, Nuevo Leon, Mexico</p>
