@@ -32,11 +32,11 @@ function Inicio() {
 
   const skills = [
     'Git & GitHub (version control)',
-    'RESTful API development with Flask',
+    'RESTful API development with Flask / FastAPI',
     'Docker (containerization & deployment)',
     'Object-Oriented Programming',
     'Programming and navigating in Linux environments',
-    'Basic SQL (queries, joins, CRUD)',
+    'SQL (BigQuery, queries, joins, CRUD)',
     'Basic Power BI (data visualization & dashboards)'
   ];
 
