@@ -1,10 +1,10 @@
 export const proyectos = [
   {
-    nombre: "React Calculator",
-    descripcion: "A fully functional calculator built with React.",
-    technologies: ["React", "CSS."],
-    github: "https://github.com/JPicazo99/Calculator-React",
-    demo: "https://calculator-react-henna.vercel.app/",
+    nombre: "Contact Directory - Full Stack App",
+    descripcion: "Full Stack application for user account creation and individual contact management.",
+    technologies: ["FastAPI", "SQLAlchemy", "Cloudinary", "Vercel", "Railway", "React", "Material UI", "Axios", "JavaScript", "HTML", "CSS", "Python."],
+    github: "https://github.com/JPicazo99/taveron-app",
+    demo: "https://taveron-app.vercel.app/",
   },
   
   {
@@ -16,11 +16,11 @@ export const proyectos = [
   },
 
   {
-    nombre: "Contact Directory - Full Stack App",
-    descripcion: "Full Stack application for user account creation and individual contact management.",
-    technologies: ["FastAPI, SQLAlchemy, Cloudinary, Vercel, Railway, React, Material UI, Axios, JavaScript, HTML, CSS, Python."],
-    github: "https://github.com/JPicazo99/taveron-app",
-    demo: "https://taveron-app.vercel.app/",
+    nombre: "React Calculator",
+    descripcion: "A fully functional calculator built with React.",
+    technologies: ["React", "CSS."],
+    github: "https://github.com/JPicazo99/Calculator-React",
+    demo: "https://calculator-react-henna.vercel.app/",
   },
 
   {
