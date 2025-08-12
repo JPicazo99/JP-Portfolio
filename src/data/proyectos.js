@@ -16,6 +16,14 @@ export const proyectos = [
   },
 
   {
+    nombre: "Contact Directory - Full Stack App",
+    descripcion: "Full Stack application for user account creation and individual contact management.",
+    technologies: ["FastAPI, SQLAlchemy, Cloudinary, Vercel, Railway, React, Material UI, Axios, JavaScript, HTML, CSS, Python."],
+    github: "https://github.com/JPicazo99/taveron-app",
+    demo: "https://taveron-app.vercel.app/",
+  },
+
+  {
     nombre: "Instrumentation and Open-Loop Control of a Ground Electric Vehicle Using Remote Control",
     descripcion: "Bachelor thesis focused on robotic control of electric vehicles.",
     technologies: ["Robotics", "Microelectronics", "Python", "Arduino", "Microcontrollers", "Inventor"],
