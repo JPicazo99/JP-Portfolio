@@ -12,7 +12,7 @@ function Education() {
         <div className="bg-gray-800 rounded-lg p-6 shadow-md">
           <h3 className="text-xl font-bold text-indigo-300">M.Sc. in Computer Engineering and Technologies – Cinvestav Tamaulipas</h3>
           <p className="text-gray-300 mt-2">Ciudad Victoria, Tamaulipas, Mexico</p>
-          <p className="text-gray-400">August 2023 – Ongoing (expected graduation: September 2025)</p>
+          <p className="text-gray-400">August 2023 – December 2025</p>
         </div>
       </div>
     </section>

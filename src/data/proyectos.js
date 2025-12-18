@@ -26,10 +26,23 @@ export const proyectos = [
   {
     nombre: "Instrumentation and Open-Loop Control of a Ground Electric Vehicle Using Remote Control",
     descripcion: "Bachelor thesis focused on robotic control of electric vehicles.",
-    technologies: ["Robotics", "Microelectronics", "Python", "Arduino", "Microcontrollers", "Inventor"],
+    technologies: ["Robotics", "Microelectronics", "Python", "Arduino", "Microcontrollers", "Inventor."],
     link: "https://repositorio.udem.edu.mx/items/1c8c240d-b95a-41e5-8291-999a0d2d19bf",
   },
 
+{
+  nombre: "Hybrid Genetic Representation Based on Graphs and Prototypes for Evolutionary Clustering",
+  descripcion: "Master’s thesis focused on the design and analysis of a hybrid genetic representation for evolutionary clustering, combining graph-based structures and prototype-based encodings.",
+  technologies: [
+    "Evolutionary Algorithms",
+    "Clustering",
+    "Graph-Based Representations",
+    "Optimization",
+    "Python",
+    "Heuristic Algorithms"
+  ],
+  link: " ",
+}
   
 
 ];

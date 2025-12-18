@@ -58,9 +58,9 @@ function Inicio() {
         {texto}<span className="animate-pulse">|</span>
       </h1>
       <p className="text-xl text-gray-300 mb-4">
-        Data Analyst and Software Developer with expertise in Python and C/C++, and a foundational knowledge of JavaScript. Currently pursuing a Master's degree in Computer Science, specializing in Optimization and Heuristic Algorithms. Adept at solving complex problems and building efficient software solutions. Passionate about leveraging data-driven insights and optimization techniques to develop innovative solutions in collaborative environments.
+        Data Analyst and Software Developer with expertise in Python and C/C++, and foundational knowledge of JavaScript. Master’s degree in Computer Science completed, with specialization in Optimization and Heuristic Algorithms. Skilled in solving complex problems and developing efficient, scalable software solutions. Passionate about leveraging data-driven insights and optimization techniques to create innovative solutions within collaborative and multidisciplinary environments.
       </p>
-      <p className="text-indigo-400 font-medium text-lg">joel.picazo@cinvestav.mx</p>
+      <p className="text-indigo-400 font-medium text-lg">joeladrianpicazovazquez@gmail.com</p>
       <p className="text-gray-400 text-base">Monterrey, Nuevo Leon, Mexico</p>
       <div className="mt-4 flex justify-center md:justify-start gap-4">
         <a href="https://www.linkedin.com/in/joel-picazo-60748a242/" className="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-2 rounded-md text-sm">LinkedIn</a>
@@ -82,9 +82,9 @@ function Inicio() {
 
   {/* Tu foto en primer plano */}
     <img
-    src="/assets/mi_foto.png"
+    src="/assets/mi_foto.jpeg"
     alt="Foto de perfil"
-    className="w-100 object-contain relative z-10 drop-shadow-2xl"
+    className="w-104 h-104 md:w-112 md:h-112 lg:w-120 lg:h-120 rounded-full object-cover relative z-10 drop-shadow-2xl"
   />
 </div>
   </div>
@@ -129,7 +129,7 @@ function Inicio() {
       </div>
       <div className="flex justify-between border-b border-gray-600 pb-2">
         <span className="text-gray-400">Email:</span>
-        <span className="font-semibold">joel.picazo@cinvestav.mx</span>
+        <span className="font-semibold">joeladrianpicazovazquez@gmail.com</span>
       </div>
       <div className="flex justify-between border-b border-gray-600 pb-2">
         <span className="text-gray-400">Phone:</span>
